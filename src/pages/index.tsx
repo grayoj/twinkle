@@ -8,7 +8,7 @@ export default function Home() {
   if (!session) {
     return (
       <div className="flex flex-col items-center justify-center h-screen">
-        <h1 className="text-2xl">Welcome to the tRPC + NextAuth App</h1>
+        <h1 className="text-2xl">Twinkle</h1>
         <button
           className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
           onClick={() => signIn('google')}
